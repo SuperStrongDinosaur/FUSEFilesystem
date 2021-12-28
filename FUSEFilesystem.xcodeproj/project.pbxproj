@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1781321EA3DA1D00B5A456 /* libosxfuse.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1781311EA3DA1D00B5A456 /* libosxfuse.2.dylib */; };
+		AEC4F5AA1EC64A1700E4D47C /* context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC4F59C1EC64A1700E4D47C /* context.cpp */; settings = {COMPILER_FLAGS = "-D_FILE_OFFSET_BITS=64"; }; };
+		AEC4F5AC1EC64A1700E4D47C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC4F5A01EC64A1700E4D47C /* main.cpp */; settings = {COMPILER_FLAGS = "-D_FILE_OFFSET_BITS=64"; }; };
+		AEC4F5AD1EC64A1700E4D47C /* mp3_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC4F5A11EC64A1700E4D47C /* mp3_file.cpp */; settings = {COMPILER_FLAGS = "-D_FILE_OFFSET_BITS=64"; }; };
+		AEC4F5AE1EC64A1700E4D47C /* mp3fs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC4F5A31EC64A1700E4D47C /* mp3fs.cpp */; settings = {COMPILER_FLAGS = "-D_FILE_OFFSET_BITS=64"; }; };
+		AEC4F5AF1EC64A1700E4D47C /* mp3vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEC4F5A51EC64A1700E4D47C /* mp3vector.cpp */; settings = {COMPILER_FLAGS = "-D_FILE_OFFSET_BITS=64"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE17811C1EA3D73000B5A456 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE17811E1EA3D73000B5A456 /* FUSEFilesystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FUSEFilesystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE17812F1EA3D8D200B5A456 /* libosxfuse.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = libosxfuse.la; path = ../../../usr/local/lib/libosxfuse.la; sourceTree = "<group>"; };
+		AE1781311EA3DA1D00B5A456 /* libosxfuse.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosxfuse.2.dylib; path = ../../../usr/local/lib/libosxfuse.2.dylib; sourceTree = "<group>"; };
+		AEC4F59C1EC64A1700E4D47C /* context.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = context.cpp; path = src/context.cpp; sourceTree = "<group>"; };
+		AEC4F59D1EC64A1700E4D47C /* context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = context.h; path = src/context.h; sourceTree = "<group>"; };
+		AEC4F5A01EC64A1700E4D47C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		AEC4F5A11EC64A1700E4D47C /* mp3_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp3_file.cpp; path = src/mp3_file.cpp; sourceTree = "<group>"; };
+		AEC4F5A21EC64A1700E4D47C /* mp3_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp3_file.h; path = src/mp3_file.h; sourceTree = "<group>"; };
+		AEC4F5A31EC64A1700E4D47C /* mp3fs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp3fs.cpp; path = src/mp3fs.cpp; sourceTree = "<group>"; };
+		AEC4F5A41EC64A1700E4D47C /* mp3fs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp3fs.h; path = src/mp3fs.h; sourceTree = "<group>"; };
+		AEC4F5A51EC64A1700E4D47C /* mp3vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp3vector.cpp; path = src/mp3vector.cpp; sourceTree = "<group>"; };
+		AEC4F5A61EC64A1700E4D47C /* mp3vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mp3vector.h; path = src/mp3vector.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE17811B1EA3D73000B5A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1781321EA3DA1D00B5A456 /* libosxfuse.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1781151EA3D73000B5A456 = {
+			isa = PBXGroup;
+			children = (
+				AE1781201EA3D73000B5A456 /* FUSEFilesystem */,
+				AE17811F1EA3D73000B5A456 /* Products */,
+				AE17812E1EA3D8D200B5A456 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE17811F1EA3D73000B5A456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE17811E1EA3D73000B5A456 /* FUSEFilesystem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE1781201EA3D73000B5A456 /* FUSEFilesystem */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4F59C1EC64A1700E4D47C /* context.cpp */,
+				AEC4F59D1EC64A1700E4D47C /* context.h */,
+				AEC4F5A01EC64A1700E4D47C /* main.cpp */,
+				AEC4F5A11EC64A1700E4D47C /* mp3_file.cpp */,
+				AEC4F5A21EC64A1700E4D47C /* mp3_file.h */,
+				AEC4F5A31EC64A1700E4D47C /* mp3fs.cpp */,
+				AEC4F5A41EC64A1700E4D47C /* mp3fs.h */,
+				AEC4F5A51EC64A1700E4D47C /* mp3vector.cpp */,
+				AEC4F5A61EC64A1700E4D47C /* mp3vector.h */,
+			);
+			path = FUSEFilesystem;
+			sourceTree = "<group>";
+		};
+		AE17812E1EA3D8D200B5A456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1781311EA3DA1D00B5A456 /* libosxfuse.2.dylib */,
+				AE17812F1EA3D8D200B5A456 /* libosxfuse.la */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE17811D1EA3D73000B5A456 /* FUSEFilesystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1781251EA3D73000B5A456 /* Build configuration list for PBXNativeTarget "FUSEFilesystem" */;
+			buildPhases = (
+				AE17811A1EA3D73000B5A456 /* Sources */,
+				AE17811B1EA3D73000B5A456 /* Frameworks */,
+				AE17811C1EA3D73000B5A456 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FUSEFilesystem;
+			productName = FUSEFilesystem;
+			productReference = AE17811E1EA3D73000B5A456 /* FUSEFilesystem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE1781161EA3D73000B5A456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Shirvinsky";
+				TargetAttributes = {
+					AE17811D1EA3D73000B5A456 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2N7RT2YU78;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE1781191EA3D73000B5A456 /* Build configuration list for PBXProject "FUSEFilesystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE1781151EA3D73000B5A456;
+			productRefGroup = AE17811F1EA3D73000B5A456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE17811D1EA3D73000B5A456 /* FUSEFilesystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE17811A1EA3D73000B5A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC4F5AF1EC64A1700E4D47C /* mp3vector.cpp in Sources */,
+				AEC4F5AC1EC64A1700E4D47C /* main.cpp in Sources */,
+				AEC4F5AA1EC64A1700E4D47C /* context.cpp in Sources */,
+				AEC4F5AD1EC64A1700E4D47C /* mp3_file.cpp in Sources */,
+				AEC4F5AE1EC64A1700E4D47C /* mp3fs.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE1781231EA3D73000B5A456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE1781241EA3D73000B5A456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE1781261EA3D73000B5A456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = 2N7RT2YU78;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include/osxfuse;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE1781271EA3D73000B5A456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEVELOPMENT_TEAM = 2N7RT2YU78;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include/osxfuse;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE1781191EA3D73000B5A456 /* Build configuration list for PBXProject "FUSEFilesystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1781231EA3D73000B5A456 /* Debug */,
+				AE1781241EA3D73000B5A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1781251EA3D73000B5A456 /* Build configuration list for PBXNativeTarget "FUSEFilesystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1781261EA3D73000B5A456 /* Debug */,
+				AE1781271EA3D73000B5A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE1781161EA3D73000B5A456 /* Project object */;
+}
